@@ -1,5 +1,4 @@
 import express from 'express';
-
 import { getUserByEmail, createUser } from '../models/user';
 import { shaPassword, random } from '../helpers';
 
